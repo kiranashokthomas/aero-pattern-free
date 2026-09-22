@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data & models (keep structure, ignore large/local files)
+data/*.csv
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
